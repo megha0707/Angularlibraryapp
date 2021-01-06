@@ -7,7 +7,7 @@ const cors = require('cors');
 var bodyparser=require('body-parser');
 const jwt = require('jsonwebtoken')
 var app = new express();
-const port=process.env.PORT || 3000;
+
 app.use(cors());
 app.use(bodyparser.json());
 username='admin';
@@ -218,5 +218,7 @@ app.post('/signup',function(req,res){
 
 });
 
-app.listen(port,()=>{console.log("server is ready running at" + port)}
-);
+app.listen(3000, function(){
+  console.log('listening to port 3000');
+});
+
