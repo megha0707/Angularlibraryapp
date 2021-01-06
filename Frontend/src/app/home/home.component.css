@@ -1,0 +1,23 @@
+.wrapper{
+    width: 400px;
+    height: 300px;
+    background-image: url(/assets/imagess/logo.jpg);
+    
+    top:  50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+ transform:translate(-50%,-50%); 
+     box-sizing: border-box; 
+     box-shadow: 8px 8px 50px #000;  
+     /* -webkit-background-size: cover;  */
+     background-size: cover; 
+     font-family : Poppins;
+     /* background-attachment: fixed; */
+       background-repeat: no-repeat;
+     
+} 
+h1{
+    font-style: italic;
+    font-weight: bold;
+}
